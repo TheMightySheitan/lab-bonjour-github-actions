@@ -1,0 +1,17 @@
+name: "Bonjour Actions"
+description: "Saluer quelqu'un"
+author: "TheMightySheitan@github.com"
+
+inputs:
+    NAME:
+        description: "Qui dois-je saluer?"
+        required: true
+        default: "Monde"
+
+runs:
+    using: "docker"
+    image: "Dockerfile"
+
+branding:
+    icon: "mic"
+    color: "purple"
